@@ -3,7 +3,7 @@ from OpenGL.GLU import *
 from OpenGL.GL import *
 import math
 
-#aproveitando a rosca feita em aula pelos alunos com a ajuda do professor só botei a malha
+#aproveitando o paraboloide feito em aula pelos alunos com a ajuda do professor só botei a malha
 
 r = 1
 n = 50
@@ -57,7 +57,7 @@ def timer(i):
 glutInit(sys.argv)
 glutInitDisplayMode(GLUT_DOUBLE | GLUT_RGBA | GLUT_DEPTH | GLUT_MULTISAMPLE)
 glutInitWindowSize(800,600)
-glutCreateWindow("Rosca com malha")
+glutCreateWindow("Paraboloide")
 glutDisplayFunc(desenha)
 glEnable(GL_MULTISAMPLE)
 glEnable(GL_DEPTH_TEST)
